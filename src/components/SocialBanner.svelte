@@ -3,7 +3,7 @@
 </script>
 
 <footer>
-  <p>Maintained by <a href="mailto:kpvdev.portfolio@proton.me" class="color-gradient-1" target="_blank">Kyle Vincent</a>. Built with <a href="https://svelte.dev" class="--color-theme-1" target="_blank">SvelteKit</a>.</p>
+  <p>Maintained by <a href="mailto:kpvdev.portfolio@proton.me" class="color-gradient-1" target="_blank">Kyle Vincent</a>. Built with <a href="https://svelte.dev" class="--color-theme-1" target="_blank" rel="noreferrer">SvelteKit</a>.</p>
 	<div class="social">
 		<a href="https://github.com/kpvdev">
 			<img src={github} alt="GitHub" />
@@ -18,9 +18,9 @@
 		text-align: center;
 		justify-content: center;
 		align-items: center;
-		position: relative;
-    bottom: 0px;
-    width: 100%;
+		position: absolute;
+    	bottom: 0px;
+    	width: 100%;
 	}
 
 	@media (min-width: 480px) {
