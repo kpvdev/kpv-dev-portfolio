@@ -1,0 +1,5 @@
+# Dependencies
+node_modules
+
+# Editor and other files
+.svelte-kit
